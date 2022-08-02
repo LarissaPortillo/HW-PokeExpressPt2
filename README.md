@@ -9,6 +9,14 @@ Go to the project directory
 ```
 $ cd repositoryname/pokemon-app
 ```
+
+Install express package
+```
+$ npm init -y
+```
+```
+$ npm i express
+```
 Make sure you have nodemon installed
 ```
 $ npm i -g nodemon
@@ -16,13 +24,6 @@ $ npm i -g nodemon
 Install dotenv package
 ```
 $ npm i dotenv
-```
-Install express package
-```
-$ npm init -y
-```
-```
-$ npm i express
 ```
 Install react package
 ```
