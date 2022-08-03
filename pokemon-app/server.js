@@ -22,7 +22,16 @@ app.engine('jsx',require('express-react-views').createEngine());
 const Pokemon = require("./models/Pokemon");
 
 //routes
+//index
+app.get('/pokemon',(req,res)=>{
+    Pokemon.find({},(error, allPoke)=>{
+        res.render('Index',{pokemon : allPoke});
+    });
+});
 
+//show
+
+//new
 
 //port
 app.listen(port,()=>{
